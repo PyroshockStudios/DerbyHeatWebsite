@@ -1,6 +1,5 @@
 <template>
   <div>
-    <header2 />
     <main>
       <NuxtPage />
     </main>
@@ -8,7 +7,7 @@
 </template>
 
 <script setup>
-import header2 from '../components/header.vue';
+
 </script>
 
 <style scoped>
