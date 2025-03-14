@@ -4,8 +4,8 @@
             <source :src="'/videos/video1.mp4'" type="video/mp4" />
         </video>
         <div class="hero-overlay">
-            <h1 class="title">Corrida Extrema</h1>
-            <button class="play-button">Play Now For Free</button>
+            <h1 class="title">Play, <br> Improve <br> & Win </h1>
+            <button class="play-button">Buy Now</button>
         </div>
     </div>
 </template>
