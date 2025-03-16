@@ -5,18 +5,18 @@
             <button @click="scrollLeft" class="scroll-button left">❮</button>
             <div ref="newsContainer" class="news-container">
                 <div class="news-track">
-                    <NewsCard image="/images/muscle.webp" date="14 Março 2025" title="New Car Buggy"
-                        text="Buggy car is finally arrived" />
-                    <NewsCard image="/images/muscle.webp" date="14 Março 2025" title="New Car Muscle"
-                        text="Muscle car is finally arrived with skins" />
-                    <NewsCard image="/images/muscle.webp" date="14 Março 2025" title="Weapons"
-                        text="Example Example Example" />
-                    <NewsCard image="/images/muscle.webp" date="14 Março 2025" title="New Car Buggy"
-                        text="Buggy car is finally arrived" />
-                    <NewsCard image="/images/muscle.webp" date="14 Março 2025" title="New Car Muscle"
-                        text="Muscle car is finally arrived with skins" />
-                    <NewsCard image="/images/muscle.webp" date="14 Março 2025" title="Weapons"
-                        text="Example Example Example" />
+                    <NewsCard image="/images/muscle.webp" date="14 Março 2025 / News / By Tyrese" title="New Car Buggy"
+                        text="Buggy car is finally arrived" class="news-card" />
+                    <NewsCard image="/images/muscle.webp" date="14 Março 2025 / News / By Tyrese" title="New Car Muscle"
+                        text="Muscle car is finally arrived with skins" class="news-card" />
+                    <NewsCard image="/images/muscle.webp" date="14 Março 2025 / News / By Tyrese" title="Weapons"
+                        text="Example Example Example" class="news-card" />
+                    <NewsCard image="/images/muscle.webp" date="14 Março 2025 / News / By Tyrese" title="New Car Buggy"
+                        text="Buggy car is finally arrived" class="news-card" />
+                    <NewsCard image="/images/muscle.webp" date="14 Março 2025 / News / By Tyrese" title="New Car Muscle"
+                        text="Muscle car is finally arrived with skins" class="news-card" />
+                    <NewsCard image="/images/muscle.webp" date="14 Março 2025 / News / By Tyrese" title="Weapons"
+                        text="Example Example Example" class="news-card" />
                 </div>
             </div>
             <button @click="scrollRight" class="scroll-button right">❯</button>
@@ -25,18 +25,29 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import NewsCard from '@/components/NewsCard.vue';
+import { onMounted, ref } from 'vue';
+import NewsCard from '@/components/NewsCardFloat.vue';
+import SlideShow from '@/assets/js/api_slideshow.js';
+import grab from '@/assets/js/api_grab.js';
+
 
 const newsContainer = ref(null);
 
-const scrollLeft = () => {
-    newsContainer.value.scrollBy({ left: -350, behavior: 'smooth' });
-};
+//const scrollLeft = () => {
+//    newsContainer.value.scrollBy({ left: -350, behavior: 'smooth' });
+//};
+//
+//const scrollRight = () => {
+//    newsContainer.value.scrollBy({ left: 350, behavior: 'smooth' });
+//};
 
-const scrollRight = () => {
-    newsContainer.value.scrollBy({ left: 350, behavior: 'smooth' });
-};
+onMounted(() => {
+    var slideShow = new SlideShow('news-container', 'news-track', 'news-card');
+    slideShow.setArrowLeft('.left');
+    slideShow.setArrowRight('.right');
+    grab(slideShow)
+})
+
 </script>
 
 <style scoped>
@@ -47,6 +58,7 @@ const scrollRight = () => {
     color: white;
     position: relative;
     width: 100%;
+    margin-top: 100px;
 }
 
 .news-wrapper {
@@ -62,7 +74,6 @@ const scrollRight = () => {
     scroll-behavior: smooth;
     width: 80%;
     max-width: 80%;
-    padding: 10px;
     scrollbar-width: none;
 }
 

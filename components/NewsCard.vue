@@ -10,14 +10,14 @@
 </template>
 
 <script>
-export default {
-    props: {
-        image: String,
-        date: String,
-        title: String,
-        text: String
-    }
-}
+import { defineProps } from 'vue';
+
+defineProps({
+    image: String,
+    date: String,
+    author: String,
+    title: String
+});
 </script>
 
 <style scoped>
