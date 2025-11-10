@@ -1,9 +1,21 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<script setup>
+import Header from '@/components/Header.vue'
+import Banner from '@/components/Banner.vue'
+import NewsSection from '@/components/NewsSection.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Header />
+    <Banner />
+    <NewsSection />
   </main>
 </template>
+
+<style scoped>
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+</style>

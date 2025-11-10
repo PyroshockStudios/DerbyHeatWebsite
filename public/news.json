@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "Sandstorm Released!",
+    "author": "TJ",
+    "category": "News",
+    "image": "/images/muscle.webp",
+    "date": "14 March 2025",
+    "text": "The new Sandstorm vehicle is now available in the store!"
+  },
+  {
+    "id": 2,
+    "title": "Hammerhead Released!",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/images/muscle.webp",
+    "text": "A new heavy-hitter, the Hammerhead, joins the lineup."
+  },
+  {
+    "id": 3,
+    "title": "New Weapons!",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/images/muscle.webp",
+    "text": "Check out the two new rifles added in today's patch."
+  },
+  {
+    "id": 4,
+    "title": "Trick System",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/images/muscle.webp",
+    "text": "Get air and show off your skills with the new in-game trick system."
+  },{
+    "id": 1,
+    "title": "Sandstorm Released!",
+    "author": "TJ",
+    "category": "News",
+    "image": "/images/muscle.webp",
+    "date": "14 March 2025",
+    "text": "The new Sandstorm vehicle is now available in the store!"
+  },
+  {
+    "id": 2,
+    "title": "Hammerhead Released!",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/images/muscle.webp",
+    "text": "A new heavy-hitter, the Hammerhead, joins the lineup."
+  },
+  {
+    "id": 3,
+    "title": "New Weapons!",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/images/muscle.webp",
+    "text": "Check out the two new rifles added in today's patch."
+  },
+  {
+    "id": 4,
+    "title": "Trick System",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/images/muscle.webp",
+    "text": "Get air and show off your skills with the new in-game trick system."
+  }
+]
