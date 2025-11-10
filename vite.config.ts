@@ -15,4 +15,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    // This is the line that fixes the error
+    allowedHosts: ['devserver-preview--derbyheat.netlify.app']
+    allowedHosts: ['derbyheat.netlify.app']
+    allowedHosts: ['derbyheat.com']
+  },
 })
