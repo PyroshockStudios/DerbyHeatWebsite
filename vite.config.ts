@@ -16,9 +16,10 @@ export default defineConfig({
     },
   },
   server: {
-    // This is the line that fixes the error
-    allowedHosts: ['devserver-preview--derbyheat.netlify.app']
-    allowedHosts: ['derbyheat.netlify.app']
-    allowedHosts: ['derbyheat.com']
+    allowedHosts: [
+	  'devserver-preview--derbyheat.netlify.app', 
+	  'derbyheat.netlify.app',
+	  'derbyheat.com'
+	]
   },
 })
