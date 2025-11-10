@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Sandstorm Released!",
+    "author": "TJ",
+    "category": "News",
+    "image": "/news/Buggy.webp",
+    "date": "14 March 2025",
+    "text": "The Sandstorm makes its debut as the cover vehicle of the game!"
+  },
+  {
+    "id": 2,
+    "title": "Hammerhead Released!",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/news/Muscle.webp",
+    "text": "A new heavy-hitter, the Hammerhead, joins the lineup."
+  },
+  {
+    "id": 3,
+    "title": "Destruction!",
+    "author": "TJ",
+    "category": "News",
+    "date": "14 March 2025",
+    "image": "/news/Destruction.webp",
+    "text": "Wreck your opponents using random junk that is around you!"
+  },
+  {
+    "id": 4,
+    "title": "Trick System",
+    "author": "Tristan",
+    "category": "News",
+    "date": "15 May 2025",
+    "image": "/news/Tricks.webp",
+    "text": "Get air and show off your skills with the new in-game trick system."
+  },
+  {
+    "id": 5,
+    "title": "Boost System",
+    "author": "Tristan",
+    "category": "News",
+    "date": "31 May 2025",
+    "image": "/news/Boost.webp",
+    "text": "Slice through the wind by boosting!"
+  },
+  {
+    "id": 6,
+    "title": "More Customisation",
+    "author": "Tristan",
+    "category": "News",
+    "date": "9 August 2025",
+    "image": "/news/Customisation.webp",
+    "text": "Car too boring? Pimp up your ride with some of the new customisation options!"
+  },
+  {
+    "id": 7,
+    "title": "Paused Development",
+    "author": "Tristan",
+    "category": "Update",
+    "date": "6 September 2025",
+    "image": "/news/Development.webp",
+    "text": "Due to personal matters and technical issues, development has slowed down. We hope to come back soon!"
+  }
+]
