@@ -4,9 +4,9 @@
     "title": "Sandstorm Released!",
     "author": "TJ",
     "category": "News",
-    "image": "/images/muscle.webp",
+    "image": "/news/Buggy.webp",
     "date": "14 March 2025",
-    "text": "The new Sandstorm vehicle is now available in the store!"
+    "text": "The Sandstorm makes its debut as the cover vehicle of the game!"
   },
   {
     "id": 2,
@@ -14,60 +14,52 @@
     "author": "TJ",
     "category": "News",
     "date": "14 March 2025",
-    "image": "/images/muscle.webp",
+    "image": "/news/Muscle.webp",
     "text": "A new heavy-hitter, the Hammerhead, joins the lineup."
   },
   {
     "id": 3,
-    "title": "New Weapons!",
+    "title": "Destruction!",
     "author": "TJ",
     "category": "News",
     "date": "14 March 2025",
-    "image": "/images/muscle.webp",
-    "text": "Check out the two new rifles added in today's patch."
+    "image": "/news/Destruction.webp",
+    "text": "Wreck your opponents using random junk that is around you!"
   },
   {
     "id": 4,
     "title": "Trick System",
-    "author": "TJ",
+    "author": "Tristan",
     "category": "News",
-    "date": "14 March 2025",
-    "image": "/images/muscle.webp",
+    "date": "15 May 2025",
+    "image": "/news/Tricks.webp",
     "text": "Get air and show off your skills with the new in-game trick system."
-  },{
-    "id": 1,
-    "title": "Sandstorm Released!",
-    "author": "TJ",
-    "category": "News",
-    "image": "/images/muscle.webp",
-    "date": "14 March 2025",
-    "text": "The new Sandstorm vehicle is now available in the store!"
   },
   {
-    "id": 2,
-    "title": "Hammerhead Released!",
-    "author": "TJ",
+    "id": 5,
+    "title": "Boost System",
+    "author": "Tristan",
     "category": "News",
-    "date": "14 March 2025",
-    "image": "/images/muscle.webp",
-    "text": "A new heavy-hitter, the Hammerhead, joins the lineup."
+    "date": "31 May 2025",
+    "image": "/news/Boost.webp",
+    "text": "Slice through the wind by boosting!"
   },
   {
-    "id": 3,
-    "title": "New Weapons!",
-    "author": "TJ",
+    "id": 6,
+    "title": "More Customisation",
+    "author": "Tristan",
     "category": "News",
-    "date": "14 March 2025",
-    "image": "/images/muscle.webp",
-    "text": "Check out the two new rifles added in today's patch."
+    "date": "9 August 2025",
+    "image": "/news/Customisation.webp",
+    "text": "Car too boring? Pimp up your ride with some of the new customisation options!"
   },
   {
-    "id": 4,
-    "title": "Trick System",
-    "author": "TJ",
-    "category": "News",
-    "date": "14 March 2025",
-    "image": "/images/muscle.webp",
-    "text": "Get air and show off your skills with the new in-game trick system."
+    "id": 7,
+    "title": "Paused Development",
+    "author": "Tristan",
+    "category": "Update",
+    "date": "6 September 2025",
+    "image": "/news/Development.webp",
+    "text": "Due to personal matters and technical issues, development has slowed down. We hope to come back soon!"
   }
 ]

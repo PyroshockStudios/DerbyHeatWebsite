@@ -1,6 +1,6 @@
 <template>
   <section class="news-section">
-    <h2 class="text-3xl font-bold mb-8">News</h2>
+    <h2 class="text-3xl font-bold mb-8" style="margin-bottom: 30px;">News</h2>
 
     <div class="news-wrapper">
       <button @click="scrollLeft" class="scroll-button left">❮</button>
@@ -12,7 +12,7 @@
       >
         <div class="news-track">
           <NewsCard
-            v-for="item in newsItems"
+            v-for="item in newsItems.slice().reverse()"
             :key="item.id"
             :title="item.title"
             :author="item.author"

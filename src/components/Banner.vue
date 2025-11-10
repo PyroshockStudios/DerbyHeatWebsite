@@ -4,7 +4,7 @@
             <source :src="'/videos/video1.mp4'" type="video/mp4" />
         </video>
         <div class="hero-overlay">
-            <h1 class="title">Play, <br> Improve <br> & Win </h1>
+            <h1 class="title">Race, <br> Crash <br> & Win </h1>
             <button class="play-button" @click="gotoStorePage()">Buy Now</button>
         </div>
     </div>

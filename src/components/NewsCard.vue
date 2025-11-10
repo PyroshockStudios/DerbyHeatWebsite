@@ -35,12 +35,8 @@ defineProps({
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    width: 350px;
     box-shadow: 0 10px 20px #2c2c42;
-    /* This component will stretch to match the height of other
-      cards in the flex row (from NewsSection.vue), which is
-      what allows the "Read More" to anchor to the bottom.
-    */
 }
 
 .news-card:hover {
@@ -57,9 +53,7 @@ defineProps({
 
 .news-content {
     padding: 15px;
-    /* FIX 1: Make the content block a flex column
-      and have it grow to fill all available space.
-    */
+
     display: flex;
     flex-direction: column;
     flex-grow: 1; 
