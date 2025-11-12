@@ -1,7 +1,7 @@
 <script setup>
 import Header from '@/components/Header.vue'
-import Banner from '@/components/Banner.vue'
-import NewsSection from '@/components/NewsSection.vue'
+import Banner from '@/components/Home/Banner.vue'
+import NewsSection from '@/components/Home/NewsSection.vue'
 </script>
 
 <template>

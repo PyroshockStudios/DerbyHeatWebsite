@@ -1,5 +1,5 @@
 <template>
-    <div class="news-card">
+    <div class="news-card" @click="gotoNewsPage($.vnode.key)">
         <img :src="image" :alt="title" class="news-image" />
         <div class="news-content">
             <div>
@@ -14,6 +14,7 @@
 </template>
 
 <script setup>
+import { gotoNewsPage } from '@/scripts/navigation';
 import { defineProps } from 'vue';
 
 defineProps({
@@ -35,7 +36,10 @@ defineProps({
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
+    min-width: 100px;
     width: 350px;
+    max-height: 100vw;
+    max-width: 50vw;
     box-shadow: 0 10px 20px #2c2c42;
 }
 

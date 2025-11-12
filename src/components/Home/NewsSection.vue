@@ -12,14 +12,14 @@
       >
         <div class="news-track">
           <NewsCard
-            v-for="item in newsItems.slice().reverse()"
+            v-for="item in newsItems.slice().reverse().slice(0, 10 /* max 10 cards visible at a time. */)"
             :key="item.id"
             :title="item.title"
             :author="item.author"
             :category="item.category"
             :date="item.date"
-            :image="item.image"
-            :text="item.text"
+            :image="item.preview_image"
+            :text="item.preview_text"
             class="news-card"
           />
         </div>
@@ -32,41 +32,14 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import NewsCard from '@/components/NewsCard.vue'
+import NewsCard from '@/components/Home/NewsCard.vue'
+import type { NewsItem } from '@/scripts/database.ts';
+import  { getNewsCards } from '@/scripts/database.ts';
 
-// --- Create a ref to store the news data ---
-// We also define a 'type' for our news items for TypeScript
-interface NewsItem {
-  id: number;
-  title: string;
-  author: string;
-  category: string;
-  date: string;
-  image: string;
-  text: string;
-}
 const newsItems = ref<NewsItem[]>([]);
 
-// --- Fetch the data when the component mounts ---
-onMounted(async () => {
-  try {
-    // This fetches the file from your 'public' folder
-    const response = await fetch('news.json'); 
-    
-    // To fetch from a remote URL, just change the string:
-    // const response = await fetch('https://api.my-game.com/news');
-
-    if (!response.ok) {
-      throw new Error('Failed to fetch news');
-    }
-    
-    // Parse the JSON data and put it in our ref
-    newsItems.value = await response.json();
-
-  } catch (error) {
-    console.error('Error fetching news:', error);
-    // You could set a default/error state here
-  }
+onMounted( async () => {
+  newsItems.value = await getNewsCards();
 });
 
 
@@ -120,15 +93,7 @@ const onMouseMove = (e: MouseEvent) => {
   newsContainer.value.scrollLeft = scrollLeftStart.value - walk
 }
 
-// We need to add/remove the 'global' listeners (up, move, leave)
-// to the window to ensure dragging works even if the
-// mouse leaves the container.
-
 onMounted(() => {
-  // We attach these to the container itself in the template:
-  // @mousedown="onMouseDown"
-
-  // We attach these to the window for better control
   window.addEventListener('mouseup', onMouseUp)
   window.addEventListener('mouseleave', onMouseLeave)
   window.addEventListener('mousemove', onMouseMove)
@@ -210,10 +175,10 @@ onUnmounted(() => {
   cursor: pointer;
   transition: 0.3s;
   z-index: 10;
-  border-radius: 50%;
-  width: 60px;
+  width: 30px;
   height: 60px;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
 }
@@ -221,4 +186,7 @@ onUnmounted(() => {
 .scroll-button:hover {
   background: #2c2c42;
 }
+
+
+
 </style>

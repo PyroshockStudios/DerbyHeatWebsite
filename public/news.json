@@ -4,9 +4,9 @@
     "title": "Sandstorm Released!",
     "author": "TJ",
     "category": "News",
-    "image": "/news/Buggy.webp",
     "date": "14 March 2025",
-    "text": "The Sandstorm makes its debut as the cover vehicle of the game!"
+    "preview_image": "/news/media/Buggy.webp",
+    "preview_text": "The Sandstorm makes its debut as the cover vehicle of the game!"
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "author": "TJ",
     "category": "News",
     "date": "14 March 2025",
-    "image": "/news/Muscle.webp",
-    "text": "A new heavy-hitter, the Hammerhead, joins the lineup."
+    "preview_image": "/news/media/Muscle.webp",
+    "preview_text": "A new heavy-hitter, the Hammerhead, joins the lineup."
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "author": "TJ",
     "category": "News",
     "date": "14 March 2025",
-    "image": "/news/Destruction.webp",
-    "text": "Wreck your opponents using random junk that is around you!"
+    "preview_image": "/news/media/Destruction.webp",
+    "preview_text": "Wreck your opponents using random junk that is around you!"
   },
   {
     "id": 4,
@@ -32,8 +32,8 @@
     "author": "Tristan",
     "category": "News",
     "date": "15 May 2025",
-    "image": "/news/Tricks.webp",
-    "text": "Get air and show off your skills with the new in-game trick system."
+    "preview_image": "/news/media/Tricks.webp",
+    "preview_text": "Get air and show off your skills with the new in-game trick system."
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@
     "author": "Tristan",
     "category": "News",
     "date": "31 May 2025",
-    "image": "/news/Boost.webp",
-    "text": "Slice through the wind by boosting!"
+    "preview_image": "/news/media/Boost.webp",
+    "preview_text": "Slice through the wind by boosting!"
   },
   {
     "id": 6,
@@ -50,8 +50,8 @@
     "author": "Tristan",
     "category": "News",
     "date": "9 August 2025",
-    "image": "/news/Customisation.webp",
-    "text": "Car too boring? Pimp up your ride with some of the new customisation options!"
+    "preview_image": "/news/media/Customisation.webp",
+    "preview_text": "Car too boring? Pimp up your ride with some of the new customisation options!"
   },
   {
     "id": 7,
@@ -59,7 +59,7 @@
     "author": "Tristan",
     "category": "Update",
     "date": "6 September 2025",
-    "image": "/news/Development.webp",
-    "text": "Due to personal matters and technical issues, development has slowed down. We hope to come back soon!"
+    "preview_image": "/news/media/Development.webp",
+    "preview_text": "Due to personal matters and technical issues, development has slowed down. We hope to come back soon!"
   }
 ]
