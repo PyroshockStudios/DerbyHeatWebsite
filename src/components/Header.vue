@@ -2,13 +2,13 @@
     <header class="py-4">
         <div class="mx-auto px-6 flex justify-between items-center">
             <!-- Logo/Title -->
-            <div class="text-3xl font-bold text-white flex items-center space-x-2" >
+            <div class="text-3xl font-bold text-white flex items-center space-x-2 cursor-pointer" @click="gotoHomePage()">
                 <img src="/images/DHIcon.png" alt="Logo" class="w-20 h-20 object-cover" />
                 <span class="text-4xl font-extrabold tracking-wider" style="margin-left: 10px;">DerbyHeat</span>
             </div>
 
             <!-- Links to navigate the site -->
-            <div class="space-x-6" style="margin: 10px 10px 10px 10px;">
+            <div class="space-x-6 cursor-pointer" style="margin: 10px 10px 10px 10px;">
                 <a class="text-white text-lg hover:text-gray-200 transition duration-300"
                   @click="gotoStorePage()"> Store Page </a>
             </div>
@@ -18,6 +18,7 @@
 
 <script setup lang="js">
 import { gotoStorePage } from '@/scripts/redirectors.js'
+import { gotoHomePage } from '@/scripts/navigation.ts'
 </script>
 
 <style scoped>

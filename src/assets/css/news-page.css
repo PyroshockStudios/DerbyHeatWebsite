@@ -1,0 +1,119 @@
+.news-article-body .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Post Date */
+.news-article-body .date {
+    color: #718096; /* Muted grey */
+    font-size: 0.9em;
+    margin-bottom: 24px;
+}
+/* News Header */
+.news-article-body h1 {
+    color: #ffffff; /* White title */
+    font-weight: 700;
+    font-size: 2.5em; 
+    margin-bottom: 8px;
+    border-bottom: 1px solid #4a5568;
+    padding-bottom: 16px;
+}
+/* Section headings */
+.news-article-body h2 {
+    font-size: 2.0em; 
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #eaecef; /* Subtle separator */
+    padding-bottom: 8px;
+}
+.news-article-body h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.news-article-body h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.news-article-body h5 {
+    color: #acacac;
+    font-size: 1.25em; 
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.news-article-body h6 {
+    color: #919191;
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+/* Standard paragraph text */
+.news-article-body p {
+    font-size: 1.125em; /* 18px */
+    margin-bottom: 24px;
+}
+
+.news-article-body img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    margin: 16px 0;
+}
+
+.news-article-body .quote {
+    font-style: italic;
+    border-left: 4px solid #63b3ed;
+    padding-left: 20px;
+    margin: 24px 0;
+    color: #a0aec0;
+    font-size: 1.2em;
+}
+
+.news-article-body ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 1.1em;
+}
+
+.news-article-body li {
+    margin-bottom: 10px;
+}
+
+.news-article-body .cta-button {
+    display: inline-block;
+    background: linear-gradient(to top, #56a1d6, #3d7ea6);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.news-article-body .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to right, #6ab2e0, #4e8fc0);
+}
+
+.news-article-body strong {
+    font-weight: bold;
+}
+.news-article-body {
+    margin: 20px;
+}
