@@ -1,7 +1,7 @@
 import router from '@/router'
-export function gotoNewsPage (pageId : Number) {
+export function gotoNewsPage(pageId: number) {
   router.push(`/news/${pageId}`)
 }
-export function gotoHomePage () {
+export function gotoHomePage() {
   router.push(`/`)
 }
