@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Header from '@/components/Header.vue'
 import Banner from '@/components/Home/Banner.vue'
 import NewsSection from '@/components/Home/NewsSection.vue'

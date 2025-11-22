@@ -61,5 +61,14 @@
     "date": "6 September 2025",
     "preview_image": "/news/media/Development.webp",
     "preview_text": "Due to personal matters and technical issues, development has slowed down. We hope to come back soon!"
+  },
+  {
+    "id": 8,
+    "title": "Looking for Visual Artists!",
+    "author": "Tristan",
+    "category": "Update",
+    "date": "22 November 2025",
+    "preview_image": "/news/media/MinigunBarrelWireframe.webp",
+    "preview_text": "While we are working hard to get the game back to development speed, we are looking for enthusiastic Visual Artists!"
   }
 ]

@@ -1,9 +1,8 @@
 <template>
-    <article class="news-article-body">
+  <article class="news-article-body">
     <section v-if="vhtml" v-html="vhtml"></section>
     <section v-else>
       <div class="container animate-pulse">
-      
         <div class="space-y-4 pl-5 mb-12">
           <div class="h-5 bg-gray-800 rounded-md w-full"></div>
           <div class="h-5 bg-gray-800 rounded-md w-5/6"></div>
@@ -26,20 +25,17 @@
         <div class="h-5 bg-gray-800 rounded-md w-full mb-4"></div>
         <div class="h-5 bg-gray-800 rounded-md w-3/4 mb-6"></div>
         <div class="h-5 bg-gray-800 rounded-md w-5/6 mb-8"></div>
-        
-      
       </div>
     </section>
   </article>
 </template>
 
-<script setup>
-import { defineProps } from 'vue';
+<script setup lang="ts">
+import { defineProps } from 'vue'
 
 defineProps({
-    vhtml : String,
-});
-
+  vhtml: String,
+})
 </script>
 
 <style>

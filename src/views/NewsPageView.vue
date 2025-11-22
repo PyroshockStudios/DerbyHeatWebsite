@@ -2,8 +2,8 @@
   <main>
     <Header />
   </main>
-  <NewsNavigator :pid="pageId"/>
-  <NewsArticle :vhtml="htmlContent"/>
+  <NewsNavigator :pid="pageId" />
+  <NewsArticle :vhtml="htmlContent" />
 </template>
 
 <script setup lang="ts">
@@ -16,11 +16,11 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const htmlContent = ref('')
-let pageId : Number = 0
+let pageId: number = 0
 
 watchEffect(async () => {
   pageId = Number(route.params.pageId)
-  htmlContent.value = await getNewsPageHTML(pageId);
+  htmlContent.value = await getNewsPageHTML(pageId)
 })
 </script>
 
